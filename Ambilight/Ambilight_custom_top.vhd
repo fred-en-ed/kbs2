@@ -5,7 +5,8 @@ use IEEE.numeric_std.all;
 entity Ambilight_custom_top is
 	port (
 		GPIO								: inout std_logic_vector(9 downto 8);
-		CLOCK_50							: in std_logic
+		CLOCK_50							: in std_logic;
+		KEY								: in std_logic_vector(3 downto 0)
 	);
 end entity Ambilight_custom_top;
 
@@ -15,12 +16,6 @@ component ambilight_system is
 	port (
 		av_config_SDAT             : inout std_logic                     := '0';             --            av_config.SDAT
 		av_config_SCLK             : out   std_logic;                                        --                     .SCLK
-		flash_ADDR                 : out   std_logic_vector(22 downto 0);                    --                flash.ADDR
-		flash_CE_N                 : out   std_logic;                                        --                     .CE_N
-		flash_OE_N                 : out   std_logic;                                        --                     .OE_N
-		flash_WE_N                 : out   std_logic;                                        --                     .WE_N
-		flash_RST_N                : out   std_logic;                                        --                     .RST_N
-		flash_DQ                   : inout std_logic_vector(7 downto 0)  := (others => '0'); --                     .DQ
 		red_leds_export            : out   std_logic_vector(17 downto 0);                    --             red_leds.export
 		sdram_addr                 : out   std_logic_vector(12 downto 0);                    --                sdram.addr
 		sdram_ba                   : out   std_logic_vector(1 downto 0);                     --                     .ba
@@ -32,8 +27,6 @@ component ambilight_system is
 		sdram_ras_n                : out   std_logic;                                        --                     .ras_n
 		sdram_we_n                 : out   std_logic;                                        --                     .we_n
 		sdram_clk_clk              : out   std_logic;                                        --            sdram_clk.clk
-		serial_port_RXD            : in    std_logic                     := '0';             --          serial_port.RXD
-		serial_port_TXD            : out   std_logic;                                        --                     .TXD
 		slider_switches_export     : in    std_logic_vector(17 downto 0) := (others => '0'); --      slider_switches.export
 		spi_out_MISO               : in    std_logic                     := '0';             --              spi_out.MISO
 		spi_out_MOSI               : out   std_logic;                                        --                     .MOSI
@@ -62,6 +55,7 @@ begin
 	amb: ambilight_system port map (
 	system_pll_ref_clk_clk => CLOCK_50,
 	spi_out_SCLK => GPIO(8),
-	spi_out_MOSI => GPIO(9)
+	spi_out_MOSI => GPIO(9),
+	system_pll_ref_reset_reset => KEY(0)
 	);
 end architecture rtl; 

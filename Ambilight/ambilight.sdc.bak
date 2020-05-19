@@ -1,0 +1,8 @@
+create_clock -name ext_clock_50mhz -period 20.000 [get_ports {CLOCK_50}]
+create_generated_clock -name sys_clock_50mhz -source [get_ports {CLOCK_50}] -divide_by 1 -multiply_by 1 [get_nets {amb|system_pll|sys_pll|PLL_for_DE_Series_Boards|auto_generated|clk[0]}]
+create_generated_clock -name sdram_clock_50mhz -source [get_ports {CLOCK_50}] -divide_by 1 -multiply_by 1 -phase -3ns [get_nets {amb|system_pll|sys_pll|PLL_for_DE_Series_Boards|auto_generated|clk[1]}]
+
+derive_clock_uncertainty
+
+set_input_delay 1 [all_inputs]
+set_output_delay 1 [all_outputs]

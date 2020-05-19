@@ -143,7 +143,7 @@ int main()
 	data[28] = 0xFFFFFF;
 	data[29] = 0xFFFFFF;
 	data[30] = 0xFFFFFF;
-	data[31] = 0xFF0000;
+	data[31] = 0xFF00FF;
 
 // 8 + 8 + 8
 

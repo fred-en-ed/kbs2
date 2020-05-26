@@ -1,0 +1,1507 @@
+Archive member included to satisfy reference by file (symbol)
+
+../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+                              ../ambilight_bsp//obj/HAL/src/crt0.o (alt_load)
+../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+                              ../ambilight_bsp//obj/HAL/src/crt0.o (alt_main)
+../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (alt_envsem)
+../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (alt_heapsem)
+../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o) (OSRunning)
+../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_core.o) (OSDebugInit)
+../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_core.o) (OS_FlagInit)
+../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_core.o) (OS_MemInit)
+../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_core.o) (OS_QInit)
+../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (OSSemCreate)
+../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+                              obj/default/hello_ucosii.o (OSTaskCreateExt)
+../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_core.o) (OSTimeDly)
+../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (alt_irq_init)
+../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (close)
+../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o) (alt_dev_list)
+../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (_do_ctors)
+../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (_do_dtors)
+../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_close.o) (alt_errno)
+../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_load.o) (alt_icache_flush_all)
+../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (alt_io_redirect)
+../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o) (alt_irq_active)
+../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o) (open)
+../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_close.o) (alt_release_fd)
+../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+../ambilight_bsp/\libucosii_bsp.a(os_cpu_a.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_core.o) (OSIntCtxSw)
+../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_task.o) (OSTaskStkInit)
+../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o) (alt_exception)
+../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_open.o) (alt_find_dev)
+../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_open.o) (alt_find_file)
+../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_open.o) (alt_get_fd)
+../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (atexit)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_main.o) (exit)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_close.o) (errno)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o) (memcmp)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o) (memset)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o) (strlen)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                              c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                              c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_core.o) (__udivsi3)
+c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              ../ambilight_bsp/\libucosii_bsp.a(os_mem.o) (__mulsi3)
+../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+                              c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+task1_stk           0x4000            obj/default/hello_ucosii.o
+OSLockNesting       0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSRunning           0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSIdleCtr           0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSPrioHighRdy       0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+errno               0x4               c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+alt_heapsem         0x4               ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+OSFlagTbl           0x370             ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSPrioCur           0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTCBList           0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+alt_fd_list_lock    0x4               ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+OSMemTbl            0xc30             ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTickStepState     0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTaskStatStk       0x800             ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSCtxSwCtr          0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSIdleCtrMax        0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTCBFreeList       0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSCPUUsage          0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTaskCtr           0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSMemFreeList       0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSQTbl              0x1e0             ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTCBHighRdy        0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSQFreeList         0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSRdyGrp            0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+task2_stk           0x4000            obj/default/hello_ucosii.o
+OSRdyTbl            0x3               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSEventFreeList     0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSIntNesting        0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTCBCur            0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTime              0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTaskIdleStk       0x800             ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSEventTbl          0xb40             ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTCBTbl            0x510             ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSFlagFreeList      0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSStatRdy           0x1               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+OSTCBPrioTbl        0x54              ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+alt_envsem          0x4               ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+OSIdleCtrRun        0x4               ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000000000 0x0000000000000020
+SDRAM            0x0000000000000020 0x0000000007ffffe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../ambilight_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_ucosii.o
+LOAD c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a
+LOAD c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+LOAD ../ambilight_bsp/\libucosii_bsp.a
+LOAD c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+                0x0000000000000000                __alt_mem_SDRAM = 0x0
+
+.entry          0x0000000000000000       0x20
+ *(.entry)
+ .entry         0x0000000000000000       0x20 ../ambilight_bsp//obj/HAL/src/crt0.o
+                0x0000000000000000                __reset
+
+.exceptions     0x0000000000000020      0x210
+                0x0000000000000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000000020        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+                0x0000000000000020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000000020        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+                0x0000000000000020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000000020       0x54 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000000074       0x10 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000000084        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000000088        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000000008c        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000000008c        0x8 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000000094       0x14 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000000a8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000000a8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000000a8       0x54 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000000fc       0xd4 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+                0x00000000000000fc                alt_irq_handler
+ .exceptions    0x00000000000001d0       0x60 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000001d0                alt_instruction_exception_entry
+                0x0000000000000230                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000000230     0xae9c
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000230       0x3c ../ambilight_bsp//obj/HAL/src/crt0.o
+                0x0000000000000230                _start
+ .text          0x000000000000026c      0x42c obj/default/hello_ucosii.o
+                0x000000000000026c                beer
+                0x00000000000002f8                refreshRate
+                0x000000000000035c                showLeds
+                0x00000000000003e4                task1
+                0x000000000000062c                main
+ .text          0x0000000000000698       0xec ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+                0x0000000000000700                alt_load
+ .text          0x0000000000000784       0xbc ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+                0x0000000000000784                alt_main
+ .text          0x0000000000000840      0x124 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+                0x0000000000000840                __env_lock
+                0x0000000000000904                __env_unlock
+ .text          0x0000000000000964      0x1ec ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+                0x0000000000000964                __malloc_lock
+                0x0000000000000a84                __malloc_unlock
+ .text          0x0000000000000b50     0x2014 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+                0x0000000000000b50                OSEventNameGet
+                0x0000000000000c70                OSEventNameSet
+                0x0000000000000db0                OSEventPendMulti
+                0x00000000000013c0                OSInit
+                0x0000000000001418                OSIntEnter
+                0x0000000000001464                OSIntExit
+                0x000000000000155c                OSSchedLock
+                0x00000000000015e8                OSSchedUnlock
+                0x00000000000016c4                OSStart
+                0x0000000000001734                OSStatInit
+                0x00000000000017e4                OSTimeTick
+                0x0000000000001a04                OSVersion
+                0x0000000000001a24                OS_Dummy
+                0x0000000000001a44                OS_EventTaskRdy
+                0x0000000000001bdc                OS_EventTaskWait
+                0x0000000000001cec                OS_EventTaskWaitMulti
+                0x0000000000001e3c                OS_EventTaskRemove
+                0x0000000000001ef4                OS_EventTaskRemoveMulti
+                0x0000000000001ff4                OS_EventWaitListInit
+                0x00000000000023d4                OS_MemClr
+                0x0000000000002428                OS_MemCopy
+                0x0000000000002490                OS_Sched
+                0x00000000000025d4                OS_StrCopy
+                0x0000000000002648                OS_StrLen
+                0x000000000000269c                OS_TaskIdle
+                0x00000000000026f8                OS_TaskStat
+                0x00000000000027c4                OS_TaskStatStkChk
+                0x0000000000002890                OS_TCBInit
+ .text          0x0000000000002b64      0x190 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+                0x0000000000002b64                OSDebugInit
+ .text          0x0000000000002cf4     0x1714 ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+                0x0000000000002cf4                OSFlagAccept
+                0x0000000000002ffc                OSFlagCreate
+                0x0000000000003104                OSFlagDel
+                0x000000000000334c                OSFlagNameGet
+                0x0000000000003474                OSFlagNameSet
+                0x00000000000035c0                OSFlagPend
+                0x0000000000003b78                OSFlagPendGetFlagsRdy
+                0x0000000000003bd8                OSFlagPost
+                0x0000000000003f6c                OSFlagQuery
+                0x0000000000004190                OS_FlagInit
+                0x0000000000004364                OS_FlagUnlink
+ .text          0x0000000000004408      0x760 ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+                0x0000000000004408                OSMemCreate
+                0x00000000000045dc                OSMemGet
+                0x00000000000046cc                OSMemNameGet
+                0x00000000000047bc                OSMemNameSet
+                0x00000000000048d0                OSMemPut
+                0x00000000000049a8                OSMemQuery
+                0x0000000000004a90                OS_MemInit
+ .text          0x0000000000004b68     0x1104 ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+                0x0000000000004b68                OSQAccept
+                0x0000000000004ca8                OSQCreate
+                0x0000000000004e54                OSQDel
+                0x00000000000050d4                OSQFlush
+                0x000000000000518c                OSQPend
+                0x0000000000005418                OSQPendAbort
+                0x0000000000005584                OSQPost
+                0x00000000000056ec                OSQPostFront
+                0x000000000000585c                OSQPostOpt
+                0x0000000000005a68                OSQQuery
+                0x0000000000005bc4                OS_QInit
+ .text          0x0000000000005c6c      0xa60 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+                0x0000000000005c6c                OSSemAccept
+                0x0000000000005d1c                OSSemCreate
+                0x0000000000005df4                OSSemDel
+                0x0000000000006034                OSSemPend
+                0x0000000000006240                OSSemPendAbort
+                0x00000000000063ac                OSSemPost
+                0x00000000000064bc                OSSemQuery
+                0x00000000000065cc                OSSemSet
+ .text          0x00000000000066cc     0x176c ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+                0x00000000000066cc                OSTaskChangePrio
+                0x0000000000006bbc                OSTaskCreate
+                0x0000000000006d68                OSTaskCreateExt
+                0x0000000000006f4c                OSTaskDel
+                0x0000000000007290                OSTaskDelReq
+                0x00000000000073e0                OSTaskNameGet
+                0x0000000000007578                OSTaskNameSet
+                0x000000000000772c                OSTaskResume
+                0x0000000000007900                OSTaskStkChk
+                0x0000000000007ac0                OSTaskSuspend
+                0x0000000000007ca4                OSTaskQuery
+                0x0000000000007dc8                OS_TaskStkClr
+ .text          0x0000000000007e38      0x500 ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+                0x0000000000007e38                OSTimeDly
+                0x0000000000007f3c                OSTimeDlyHMSM
+                0x00000000000080a8                OSTimeDlyResume
+                0x000000000000827c                OSTimeGet
+                0x00000000000082d8                OSTimeSet
+ .text          0x0000000000008338      0x360 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+                0x000000000000836c                alt_irq_init
+                0x00000000000083a4                alt_sys_init
+ .text          0x0000000000008698      0x164 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x0000000000008698                altera_avalon_jtag_uart_read_fd
+                0x00000000000086f8                altera_avalon_jtag_uart_write_fd
+                0x0000000000008758                altera_avalon_jtag_uart_close_fd
+                0x00000000000087a8                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x00000000000087fc      0x558 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x00000000000087fc                altera_avalon_jtag_uart_init
+                0x0000000000008cec                altera_avalon_jtag_uart_close
+ .text          0x0000000000008d54       0xf0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x0000000000008d54                altera_avalon_jtag_uart_ioctl
+ .text          0x0000000000008e44      0x2bc ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000008e44                altera_avalon_jtag_uart_read
+ .text          0x0000000000009100      0x2c4 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000009100                altera_avalon_jtag_uart_write
+ .text          0x00000000000093c4       0xf4 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+                0x000000000000943c                alt_avalon_timer_sc_init
+ .text          0x00000000000094b8      0x12c ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+                0x00000000000094b8                alt_alarm_start
+ .text          0x00000000000095e4      0x114 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+                0x0000000000009620                close
+ .text          0x00000000000096f8       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+                0x00000000000096f8                alt_dcache_flush_all
+ .text          0x0000000000009718       0x2c ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ .text          0x0000000000009744       0xe0 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000009780                alt_dev_llist_insert
+ .text          0x0000000000009824       0x60 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+                0x0000000000009824                _do_ctors
+ .text          0x0000000000009884       0x60 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+                0x0000000000009884                _do_dtors
+ .text          0x00000000000098e4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+ .text          0x00000000000098e4       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+                0x00000000000098e4                alt_icache_flush_all
+ .text          0x0000000000009904      0x1b0 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+                0x0000000000009904                alt_ic_isr_register
+                0x0000000000009954                alt_ic_irq_enable
+                0x00000000000099dc                alt_ic_irq_disable
+                0x0000000000009a68                alt_ic_irq_enabled
+ .text          0x0000000000009ab4       0xf0 ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+                0x0000000000009ab4                alt_iic_isr_register
+ .text          0x0000000000009ba4      0x160 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+                0x0000000000009c88                alt_io_redirect
+ .text          0x0000000000009d04        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000009d04        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000009d04        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000009d04      0x284 ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+                0x0000000000009e2c                open
+ .text          0x0000000000009f88       0x84 ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+                0x0000000000009f88                alt_release_fd
+ .text          0x000000000000a00c      0x1a4 ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+                0x000000000000a00c                alt_alarm_stop
+                0x000000000000a0a8                alt_tick
+ .text          0x000000000000a1b0       0x24 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+                0x000000000000a1b0                altera_nios2_gen2_irq_init
+ .text          0x000000000000a1d4       0xd0 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_a.o)
+                0x000000000000a1d4                OSCtxSw
+                0x000000000000a1d4                OSIntCtxSw
+                0x000000000000a260                OSStartHighRdy
+                0x000000000000a280                OSStartTsk
+ .text          0x000000000000a2a4      0x288 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+                0x000000000000a2a4                OSTaskStkInit
+                0x000000000000a400                OSTaskCreateHook
+                0x000000000000a424                OSTaskDelHook
+                0x000000000000a448                OSTaskSwHook
+                0x000000000000a468                OSTaskStatHook
+                0x000000000000a488                OSTimeTickHook
+                0x000000000000a4a8                OSInitHookBegin
+                0x000000000000a4c8                OSInitHookEnd
+                0x000000000000a4e8                OSTaskIdleHook
+                0x000000000000a508                OSTCBInitHook
+ .text          0x000000000000a52c        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ .text          0x000000000000a52c       0x90 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+                0x000000000000a52c                alt_find_dev
+ .text          0x000000000000a5bc      0x108 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+                0x000000000000a5bc                alt_find_file
+ .text          0x000000000000a6c4       0xf4 ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+                0x000000000000a6c4                alt_get_fd
+ .text          0x000000000000a7b8       0x9c ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000000a7b8                alt_exception_cause_generated_bad_addr
+ .text          0x000000000000a854        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .text.atexit   0x000000000000a854       0x14 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x000000000000a854                atexit
+ .text          0x000000000000a868        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .text.exit     0x000000000000a868       0x38 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                0x000000000000a868                exit
+ .text          0x000000000000a8a0        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .text          0x000000000000a8a0        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .text          0x000000000000a8a0        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x000000000000a8a0       0x7c c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                0x000000000000a8a0                memcmp
+ .text          0x000000000000a91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x000000000000a91c      0x148 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                0x000000000000a91c                memcpy
+ .text          0x000000000000aa64        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .text.memset   0x000000000000aa64      0x128 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+                0x000000000000aa64                memset
+ .text          0x000000000000ab8c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .text.strlen   0x000000000000ab8c       0x98 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x000000000000ab8c                strlen
+ .text          0x000000000000ac24        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x000000000000ac24      0x118 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                0x000000000000ac24                __register_exitproc
+ .text          0x000000000000ad3c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x000000000000ad3c      0x180 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x000000000000ad3c                __call_exitprocs
+ .text          0x000000000000aebc      0x1b4 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x000000000000aebc                __divsi3
+                0x000000000000af40                __modsi3
+                0x000000000000afb4                __udivsi3
+                0x000000000000b018                __umodsi3
+ .text          0x000000000000b070       0x28 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x000000000000b070                __mulsi3
+ .text          0x000000000000b098       0x34 ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+                0x000000000000b098                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000000000000b0cc                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x000000000000b0cc                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x000000000000b0cc                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x000000000000b0cc                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x000000000000b0cc                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x000000000000b0cc                . = ALIGN (0x4)
+
+.rodata         0x000000000000b0cc      0x18c
+                0x000000000000b0cc                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x000000000000b0cc                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000000b0cc        0xf ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ *fill*         0x000000000000b0db        0x1 
+ .rodata        0x000000000000b0dc      0x11e ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+                0x000000000000b0dc                OSUnMapTbl
+ *fill*         0x000000000000b1fa        0x2 
+ .rodata        0x000000000000b1fc       0x45 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ *fill*         0x000000000000b241        0x3 
+ .rodata        0x000000000000b244        0xa ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ *fill*         0x000000000000b24e        0x2 
+ .rodata        0x000000000000b250        0x2 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ *fill*         0x000000000000b252        0x2 
+ .rodata.str1.4
+                0x000000000000b254        0x4 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+ *(.rodata1)
+                0x000000000000b258                . = ALIGN (0x4)
+                0x000000000000b258                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x000000000000b0cc                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x000000000000b258     0x176c load address 0x000000000000c9c4
+                0x000000000000b258                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x000000000000b258                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp//obj/HAL/src/crt0.o
+ .data          0x000000000000b258        0x0 obj/default/hello_ucosii.o
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+ .data          0x000000000000b258        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+ .data          0x000000000000b258     0x10f8 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+ .data          0x000000000000c350        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000000000c350      0x1a8 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+                0x000000000000c350                alt_dev_null
+                0x000000000000c378                alt_fd_list
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_a.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+ .data          0x000000000000c4f8        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x000000000000c4f8        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .data          0x000000000000c4f8        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .data          0x000000000000c4f8        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x000000000000c4f8      0x424 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x000000000000c91c        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x000000000000c91c        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+                0x000000000001491c                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000000000000c91c        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .sdata         0x000000000000c920        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .sdata         0x000000000000c924       0x72 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+                0x000000000000c924                OSDebugEn
+                0x000000000000c928                OSEndiannessTest
+                0x000000000000c92c                OSEventEn
+                0x000000000000c92e                OSEventMax
+                0x000000000000c930                OSEventNameSize
+                0x000000000000c932                OSEventSize
+                0x000000000000c934                OSEventTblSize
+                0x000000000000c936                OSEventMultiEn
+                0x000000000000c938                OSFlagEn
+                0x000000000000c93a                OSFlagGrpSize
+                0x000000000000c93c                OSFlagNodeSize
+                0x000000000000c93e                OSFlagWidth
+                0x000000000000c940                OSFlagMax
+                0x000000000000c942                OSFlagNameSize
+                0x000000000000c944                OSLowestPrio
+                0x000000000000c946                OSMboxEn
+                0x000000000000c948                OSMemEn
+                0x000000000000c94a                OSMemMax
+                0x000000000000c94c                OSMemNameSize
+                0x000000000000c94e                OSMemSize
+                0x000000000000c950                OSMemTblSize
+                0x000000000000c952                OSMutexEn
+                0x000000000000c954                OSPtrSize
+                0x000000000000c956                OSQEn
+                0x000000000000c958                OSQMax
+                0x000000000000c95a                OSQSize
+                0x000000000000c95c                OSRdyTblSize
+                0x000000000000c95e                OSSemEn
+                0x000000000000c960                OSStkWidth
+                0x000000000000c962                OSTaskCreateEn
+                0x000000000000c964                OSTaskCreateExtEn
+                0x000000000000c966                OSTaskDelEn
+                0x000000000000c968                OSTaskIdleStkSize
+                0x000000000000c96a                OSTaskProfileEn
+                0x000000000000c96c                OSTaskMax
+                0x000000000000c96e                OSTaskNameSize
+                0x000000000000c970                OSTaskStatEn
+                0x000000000000c972                OSTaskStatStkSize
+                0x000000000000c974                OSTaskStatStkChkEn
+                0x000000000000c976                OSTaskSwHookEn
+                0x000000000000c978                OSTCBPrioTblMax
+                0x000000000000c97a                OSTCBSize
+                0x000000000000c97c                OSTicksPerSec
+                0x000000000000c97e                OSTimeTickHookEn
+                0x000000000000c980                OSVersionNbr
+                0x000000000000c982                OSTmrEn
+                0x000000000000c984                OSTmrCfgMax
+                0x000000000000c986                OSTmrCfgNameSize
+                0x000000000000c988                OSTmrCfgWheelSize
+                0x000000000000c98a                OSTmrCfgTicksPerSec
+                0x000000000000c98c                OSTmrSize
+                0x000000000000c98e                OSTmrTblSize
+                0x000000000000c990                OSTmrWheelSize
+                0x000000000000c992                OSTmrWheelTblSize
+                0x000000000000c994                OSDataSize
+ *fill*         0x000000000000c996        0x2 
+ .sdata         0x000000000000c998       0x14 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+                0x000000000000c998                alt_fs_list
+                0x000000000000c9a0                alt_dev_list
+                0x000000000000c9a8                alt_max_fd
+ .sdata         0x000000000000c9ac        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+                0x000000000000c9ac                alt_errno
+ .sdata         0x000000000000c9b0        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+                0x000000000000c9b0                alt_priority_mask
+ .sdata         0x000000000000c9b4        0x8 ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+                0x000000000000c9b4                alt_alarm_list
+ .sdata._global_impure_ptr
+                0x000000000000c9bc        0x4 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x000000000000c9bc                _global_impure_ptr
+ .sdata._impure_ptr
+                0x000000000000c9c0        0x4 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x000000000000c9c0                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x000000000000c9c4                . = ALIGN (0x4)
+                0x000000000000c9c4                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x000000000000c9c4                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x000000000000c9c4                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x000000000000e130     0xb3a8
+                0x000000000000e130                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000000000000e130        0xc ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+                0x000000000000e130                alt_argc
+                0x000000000000e134                alt_argv
+                0x000000000000e138                alt_envp
+ .sbss          0x000000000000e13c        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .sbss          0x000000000000e140        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+                0x000000000000e140                alt_envsem
+ .sbss          0x000000000000e144        0x8 ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+                0x000000000000e148                alt_heapsem
+ .sbss          0x000000000000e14c       0x50 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+                0x000000000000e14c                OSLockNesting
+                0x000000000000e14d                OSRunning
+                0x000000000000e150                OSIdleCtr
+                0x000000000000e154                OSPrioHighRdy
+                0x000000000000e155                OSPrioCur
+                0x000000000000e158                OSTCBList
+                0x000000000000e15c                OSTickStepState
+                0x000000000000e160                OSCtxSwCtr
+                0x000000000000e164                OSIdleCtrMax
+                0x000000000000e168                OSTCBFreeList
+                0x000000000000e16c                OSCPUUsage
+                0x000000000000e16d                OSTaskCtr
+                0x000000000000e170                OSMemFreeList
+                0x000000000000e174                OSTCBHighRdy
+                0x000000000000e178                OSQFreeList
+                0x000000000000e17c                OSRdyGrp
+                0x000000000000e17d                OSRdyTbl
+                0x000000000000e180                OSEventFreeList
+                0x000000000000e184                OSIntNesting
+                0x000000000000e188                OSTCBCur
+                0x000000000000e18c                OSTime
+                0x000000000000e190                OSFlagFreeList
+                0x000000000000e194                OSStatRdy
+                0x000000000000e198                OSIdleCtrRun
+ .sbss          0x000000000000e19c        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+                0x000000000000e19c                alt_fd_list_lock
+ .sbss          0x000000000000e1a0        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+                0x000000000000e1a0                alt_irq_active
+ .sbss          0x000000000000e1a4        0x8 ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+                0x000000000000e1a4                _alt_tick_rate
+                0x000000000000e1a8                _alt_nticks
+ .sbss          0x000000000000e1ac        0x4 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000000e1ac                alt_instruction_exception_handler
+ .sbss          0x000000000000e1b0        0x4 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                0x000000000000e1b0                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp//obj/HAL/src/crt0.o
+ .bss           0x000000000000e1b4        0x0 obj/default/hello_ucosii.o
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_a.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x000000000000e1b4        0x0 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x000000000000e1b4        0x0 ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x000000000000e1b4     0x8000 obj/default/hello_ucosii.o
+                0x000000000000e1b4                task1_stk
+                0x00000000000121b4                task2_stk
+ COMMON         0x00000000000161b4     0x3224 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+                0x00000000000161b4                OSFlagTbl
+                0x0000000000016524                OSMemTbl
+                0x0000000000017154                OSTaskStatStk
+                0x0000000000017954                OSQTbl
+                0x0000000000017b34                OSTaskIdleStk
+                0x0000000000018334                OSEventTbl
+                0x0000000000018e74                OSTCBTbl
+                0x0000000000019384                OSTCBPrioTbl
+ COMMON         0x00000000000193d8      0x100 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+                0x00000000000193d8                alt_irq
+                0x00000000000194d8                . = ALIGN (0x4)
+                0x00000000000194d8                __bss_end = ABSOLUTE (.)
+
+.SDRAM          0x00000000000194d8        0x0
+                [!provide]                        PROVIDE (_alt_partition_SDRAM_start, ABSOLUTE (.))
+ *(.SDRAM .SDRAM. SDRAM.*)
+                0x00000000000194d8                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_SDRAM_end, ABSOLUTE (.))
+                0x00000000000194d8                _end = ABSOLUTE (.)
+                0x00000000000194d8                end = ABSOLUTE (.)
+                0x00000000000194d8                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_SDRAM_load_addr, LOADADDR (.SDRAM))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/hello_ucosii.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x0000000000000023       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x798
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../ambilight_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_ucosii.o
+ .debug_aranges
+                0x0000000000000048       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000068       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000088       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+ .debug_aranges
+                0x0000000000000108       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+ .debug_aranges
+                0x0000000000000128       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+ .debug_aranges
+                0x0000000000000148       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+ .debug_aranges
+                0x0000000000000168       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+ .debug_aranges
+                0x0000000000000188       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000208       0x20 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x0000000000000228       0x20 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x0000000000000248       0x20 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000268       0x20 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000288       0x20 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x00000000000002a8       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x00000000000002c8       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000000000002e8       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000308       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000328       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000348       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000368       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000388       0x18 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000003a0       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000003c0       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000003e0       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000400       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000420       0x30 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000450       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000470       0x18 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000488       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000000000004a8       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000004c8       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000000000004e8       0x20 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000508       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_a.o)
+ .debug_aranges
+                0x0000000000000528       0x20 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ .debug_aranges
+                0x0000000000000548       0x38 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000580       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000000000005a0       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000000000005c0       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000000000005e0       0x28 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000608       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000628       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000648       0x18 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000660       0x18 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000678       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000698       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000000000006b8       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000006d8       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000006f8       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000718       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000738       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000758       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x0000000000000778       0x20 ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x11c7a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x67 ../ambilight_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000067      0x26d obj/default/hello_ucosii.o
+ .debug_info    0x00000000000002d4      0x145 ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+ .debug_info    0x0000000000000419      0x26d ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ .debug_info    0x0000000000000686      0xc67 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .debug_info    0x00000000000012ed      0xdad ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .debug_info    0x000000000000209a     0x15b9 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+ .debug_info    0x0000000000003653      0xaa8 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+ .debug_info    0x00000000000040fb      0xf9c ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+ .debug_info    0x0000000000005097      0x67a ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+ .debug_info    0x0000000000005711      0xda3 ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+ .debug_info    0x00000000000064b4      0xa04 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+ .debug_info    0x0000000000006eb8     0x1117 ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+ .debug_info    0x0000000000007fcf      0x6e9 ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+ .debug_info    0x00000000000086b8      0x7c5 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000008e7d      0x67b ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00000000000094f8      0x6b3 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x0000000000009bab      0x3cd ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x0000000000009f78      0x57a ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000000000000a4f2      0x579 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x000000000000aa6b      0x226 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x000000000000ac91      0x2cc ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+ .debug_info    0x000000000000af5d      0x355 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+ .debug_info    0x000000000000b2b2       0x92 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000b344      0x585 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ .debug_info    0x000000000000b8c9      0x1a9 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000000000000ba72       0x83 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+ .debug_info    0x000000000000baf5       0x83 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+ .debug_info    0x000000000000bb78       0xa6 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+ .debug_info    0x000000000000bc1e       0x92 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000000bcb0      0x350 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+ .debug_info    0x000000000000c000      0x1ef ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000000000000c1ef      0x4d9 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+ .debug_info    0x000000000000c6c8       0x70 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000000000000c738      0x1b0 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .debug_info    0x000000000000c8e8       0x88 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+ .debug_info    0x000000000000c970      0x3e4 ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+ .debug_info    0x000000000000cd54      0x2f9 ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+ .debug_info    0x000000000000d04d      0x2a7 ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+ .debug_info    0x000000000000d2f4       0x92 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x000000000000d386       0x6f ../ambilight_bsp/\libucosii_bsp.a(os_cpu_a.o)
+ .debug_info    0x000000000000d3f5      0xcea ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ .debug_info    0x000000000000e0df       0x76 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ .debug_info    0x000000000000e155      0x31d ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+ .debug_info    0x000000000000e472      0x31a ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+ .debug_info    0x000000000000e78c      0x44b ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+ .debug_info    0x000000000000ebd7      0x1e7 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x000000000000edbe       0xfe c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_info    0x000000000000eebc      0x8e4 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_info    0x000000000000f7a0      0x8a1 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_info    0x0000000000010041       0x8a c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_info    0x00000000000100cb      0x11a c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00000000000101e5      0x144 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000010329      0x121 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_info    0x000000000001044a       0xe2 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_info    0x000000000001052c      0x934 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000010e60      0x965 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x00000000000117c5      0x2c6 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000011a8b       0xb4 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x0000000000011b3f      0x13b ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x48df
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../ambilight_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x13a obj/default/hello_ucosii.o
+ .debug_abbrev  0x000000000000014c       0x9f ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000001eb      0x139 ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000324      0x1e3 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .debug_abbrev  0x0000000000000507      0x26d ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .debug_abbrev  0x0000000000000774      0x302 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+ .debug_abbrev  0x0000000000000a76       0xf7 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+ .debug_abbrev  0x0000000000000b6d      0x25a ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+ .debug_abbrev  0x0000000000000dc7      0x228 ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+ .debug_abbrev  0x0000000000000fef      0x248 ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+ .debug_abbrev  0x0000000000001237      0x262 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+ .debug_abbrev  0x0000000000001499      0x247 ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+ .debug_abbrev  0x00000000000016e0      0x20c ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+ .debug_abbrev  0x00000000000018ec      0x1d5 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000001ac1      0x16c ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000001c2d      0x24f ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x0000000000001e7c      0x156 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x0000000000001fd2      0x1f8 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x00000000000021ca      0x1f6 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x00000000000023c0      0x155 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x0000000000002515      0x162 ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x0000000000002677      0x126 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+ .debug_abbrev  0x000000000000279d       0x42 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000000000027df      0x11c ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000000000028fb      0x114 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000002a0f       0x79 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000002a88       0x79 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x0000000000002b01       0x5a ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000002b5b       0x42 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000002b9d      0x163 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000002d00      0x169 ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x0000000000002e69      0x11b ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000002f84       0x12 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000002f96      0x13a ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00000000000030d0       0x40 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000003110      0x14f ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+ .debug_abbrev  0x000000000000325f       0xe5 ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x0000000000003344      0x15a ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+ .debug_abbrev  0x000000000000349e       0x42 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x00000000000034e0       0x14 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_a.o)
+ .debug_abbrev  0x00000000000034f4      0x215 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ .debug_abbrev  0x0000000000003709       0x12 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x000000000000371b       0xf7 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000003812       0xf7 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000000000003909      0x19b ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000000000003aa4       0xdc ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x0000000000003b80       0xaa c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000003c2a      0x1e5 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000003e0f      0x18f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000003f9e       0x37 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000003fd5       0x7f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000004054       0xa3 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00000000000040f7       0xae c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000000041a5       0x90 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000004235      0x21e c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000004453      0x22e c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000004681      0x10e c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x000000000000478f       0x6f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x00000000000047fe       0xe1 ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x5486
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 ../ambilight_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066      0x116 obj/default/hello_ucosii.o
+ .debug_line    0x000000000000017c       0x8e ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+ .debug_line    0x000000000000020a      0x12f ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000339      0x1aa ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .debug_line    0x00000000000004e3      0x20e ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .debug_line    0x00000000000006f1      0x68b ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+ .debug_line    0x0000000000000d7c       0xd2 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+ .debug_line    0x0000000000000e4e      0x4ff ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+ .debug_line    0x000000000000134d      0x23f ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+ .debug_line    0x000000000000158c      0x3fb ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+ .debug_line    0x0000000000001987      0x2e0 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+ .debug_line    0x0000000000001c67      0x52d ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+ .debug_line    0x0000000000002194      0x1a8 ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+ .debug_line    0x000000000000233c      0x216 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000002552      0x155 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000000000026a7      0x225 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x00000000000028cc      0x157 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x0000000000002a23      0x1db ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x0000000000002bfe      0x1dc ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000002dda       0xfd ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x0000000000002ed7       0xf9 ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000000000002fd0      0x174 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+ .debug_line    0x0000000000003144       0x51 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000003195      0x13c ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ .debug_line    0x00000000000032d1       0xcf ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00000000000033a0       0x59 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00000000000033f9       0x59 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000003452       0x51 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+ .debug_line    0x00000000000034a3       0x4f ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000000000034f2       0xeb ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+ .debug_line    0x00000000000035dd       0xdb ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00000000000036b8      0x144 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00000000000037fc       0x6b ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000003867       0xc8 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .debug_line    0x000000000000392f       0x50 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+ .debug_line    0x000000000000397f      0x13a ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+ .debug_line    0x0000000000003ab9       0xbf ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000003b78       0xff ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000003c77       0x51 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000003cc8       0x86 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_a.o)
+ .debug_line    0x0000000000003d4e      0x1b2 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ .debug_line    0x0000000000003f00       0xb3 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000003fb3       0xc4 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000004077       0xe0 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+ .debug_line    0x0000000000004157      0x128 ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+ .debug_line    0x000000000000427f       0xb9 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000004338       0xe7 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_line    0x000000000000441f      0x1fc c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_line    0x000000000000461b      0x160 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_line    0x000000000000477b       0x5f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_line    0x00000000000047da      0x176 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000004950      0x18c c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000004adc      0x18f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_line    0x0000000000004c6b      0x16f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000004dda      0x21f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000004ff9      0x23a c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000005233      0x105 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000005338       0x80 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x00000000000053b8       0xce ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000     0x1c8c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0xc4 obj/default/hello_ucosii.o
+ .debug_frame   0x00000000000000c4       0x5c ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000120       0x2c ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+ .debug_frame   0x000000000000014c       0x60 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+ .debug_frame   0x00000000000001ac       0x64 ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+ .debug_frame   0x0000000000000210      0x530 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+ .debug_frame   0x0000000000000740       0x34 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+ .debug_frame   0x0000000000000774      0x200 ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+ .debug_frame   0x0000000000000974      0x118 ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+ .debug_frame   0x0000000000000a8c      0x1bc ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+ .debug_frame   0x0000000000000c48      0x144 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+ .debug_frame   0x0000000000000d8c      0x1e4 ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+ .debug_frame   0x0000000000000f70       0xd8 ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+ .debug_frame   0x0000000000001048       0x88 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000010d0       0xb0 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000000000001180       0xac ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x000000000000122c       0x34 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x0000000000001260       0x38 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000001298       0x38 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000012d0       0x60 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x0000000000001330       0x34 ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x0000000000001364       0x60 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+ .debug_frame   0x00000000000013c4       0x34 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000000000013f8       0x34 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+ .debug_frame   0x000000000000142c       0x60 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x000000000000148c       0x38 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000000000014c4       0x38 ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000000000014fc       0x34 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000001530       0xa4 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+ .debug_frame   0x00000000000015d4       0x38 ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x000000000000160c       0x64 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000000000001670       0x38 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000000000016a8       0x8c ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+ .debug_frame   0x0000000000001734       0x3c ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000001770       0x5c ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+ .debug_frame   0x00000000000017cc       0x34 ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000001800      0x17c ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+ .debug_frame   0x000000000000197c       0x38 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000000000019b4       0x38 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000000000019ec       0x3c ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000001a28       0x5c ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000001a84       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000001aa4       0x28 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000001acc       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000001aec       0x38 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000001b24       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001b44       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000001b64       0x38 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000001b9c       0x54 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000001bf0       0x50 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x0000000000001c40       0x20 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x0000000000001c60       0x2c ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x2fdb
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x175 obj/default/hello_ucosii.o
+                                        0x1bf (size before relaxing)
+ .debug_str     0x0000000000000175      0x11c ../ambilight_bsp/\libucosii_bsp.a(alt_load.o)
+                                        0x20b (size before relaxing)
+ .debug_str     0x0000000000000291       0xfd ../ambilight_bsp/\libucosii_bsp.a(alt_main.o)
+                                        0x259 (size before relaxing)
+ .debug_str     0x000000000000038e      0x590 ../ambilight_bsp/\libucosii_bsp.a(alt_env_lock.o)
+                                        0x7c1 (size before relaxing)
+ .debug_str     0x000000000000091e       0x8b ../ambilight_bsp/\libucosii_bsp.a(alt_malloc_lock.o)
+                                        0x823 (size before relaxing)
+ .debug_str     0x00000000000009a9      0x536 ../ambilight_bsp/\libucosii_bsp.a(os_core.o)
+                                        0x94f (size before relaxing)
+ .debug_str     0x0000000000000edf      0x2e5 ../ambilight_bsp/\libucosii_bsp.a(os_dbg.o)
+                                        0x8be (size before relaxing)
+ .debug_str     0x00000000000011c4      0x136 ../ambilight_bsp/\libucosii_bsp.a(os_flag.o)
+                                        0x5eb (size before relaxing)
+ .debug_str     0x00000000000012fa       0xcf ../ambilight_bsp/\libucosii_bsp.a(os_mem.o)
+                                        0x2f4 (size before relaxing)
+ .debug_str     0x00000000000013c9       0xc0 ../ambilight_bsp/\libucosii_bsp.a(os_q.o)
+                                        0x56e (size before relaxing)
+ .debug_str     0x0000000000001489       0x77 ../ambilight_bsp/\libucosii_bsp.a(os_sem.o)
+                                        0x4f7 (size before relaxing)
+ .debug_str     0x0000000000001500      0x118 ../ambilight_bsp/\libucosii_bsp.a(os_task.o)
+                                        0x5fa (size before relaxing)
+ .debug_str     0x0000000000001618       0x6d ../ambilight_bsp/\libucosii_bsp.a(os_time.o)
+                                        0x49a (size before relaxing)
+ .debug_str     0x0000000000001685      0x389 ../ambilight_bsp/\libucosii_bsp.a(alt_sys_init.o)
+                                        0x654 (size before relaxing)
+ .debug_str     0x0000000000001a0e       0xb9 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x48d (size before relaxing)
+ .debug_str     0x0000000000001ac7       0xf6 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x454 (size before relaxing)
+ .debug_str     0x0000000000001bbd       0x4a ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                        0x37c (size before relaxing)
+ .debug_str     0x0000000000001c07       0x63 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x3ef (size before relaxing)
+ .debug_str     0x0000000000001c6a       0x4a ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x3f0 (size before relaxing)
+ .debug_str     0x0000000000001cb4       0x66 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_timer_sc.o)
+                                        0x244 (size before relaxing)
+ .debug_str     0x0000000000001d1a       0x59 ../ambilight_bsp/\libucosii_bsp.a(alt_alarm_start.o)
+                                        0x277 (size before relaxing)
+ .debug_str     0x0000000000001d73       0x44 ../ambilight_bsp/\libucosii_bsp.a(alt_close.o)
+                                        0x234 (size before relaxing)
+ .debug_str     0x0000000000001db7       0x34 ../ambilight_bsp/\libucosii_bsp.a(alt_dcache_flush_all.o)
+                                        0x14e (size before relaxing)
+ .debug_str     0x0000000000001deb      0x119 ../ambilight_bsp/\libucosii_bsp.a(alt_dev.o)
+                                        0x3a2 (size before relaxing)
+ .debug_str     0x0000000000001f04       0x34 ../ambilight_bsp/\libucosii_bsp.a(alt_dev_llist_insert.o)
+                                        0x1c5 (size before relaxing)
+ .debug_str     0x0000000000001f38       0x48 ../ambilight_bsp/\libucosii_bsp.a(alt_do_ctors.o)
+                                         0xc9 (size before relaxing)
+ .debug_str     0x0000000000001f80       0x4c ../ambilight_bsp/\libucosii_bsp.a(alt_do_dtors.o)
+                                         0xc8 (size before relaxing)
+ .debug_str     0x0000000000001fcc       0x14 ../ambilight_bsp/\libucosii_bsp.a(alt_errno.o)
+                                        0x13e (size before relaxing)
+ .debug_str     0x0000000000001fe0       0x34 ../ambilight_bsp/\libucosii_bsp.a(alt_icache_flush_all.o)
+                                        0x14e (size before relaxing)
+ .debug_str     0x0000000000002014       0xc4 ../ambilight_bsp/\libucosii_bsp.a(alt_iic.o)
+                                        0x237 (size before relaxing)
+ .debug_str     0x00000000000020d8       0x4c ../ambilight_bsp/\libucosii_bsp.a(alt_iic_isr_register.o)
+                                        0x1e1 (size before relaxing)
+ .debug_str     0x0000000000002124       0x56 ../ambilight_bsp/\libucosii_bsp.a(alt_io_redirect.o)
+                                        0x33f (size before relaxing)
+ .debug_str     0x000000000000217a       0x3a ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+                                        0x1b8 (size before relaxing)
+ .debug_str     0x00000000000021b4       0x17 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_vars.o)
+                                        0x133 (size before relaxing)
+ .debug_str     0x00000000000021cb       0x2f ../ambilight_bsp/\libucosii_bsp.a(alt_open.o)
+                                        0x26c (size before relaxing)
+ .debug_str     0x00000000000021fa       0x28 ../ambilight_bsp/\libucosii_bsp.a(alt_release_fd.o)
+                                        0x21e (size before relaxing)
+ .debug_str     0x0000000000002222       0x4a ../ambilight_bsp/\libucosii_bsp.a(alt_tick.o)
+                                        0x258 (size before relaxing)
+ .debug_str     0x000000000000226c       0x3b ../ambilight_bsp/\libucosii_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x155 (size before relaxing)
+ .debug_str     0x00000000000022a7       0xd5 ../ambilight_bsp/\libucosii_bsp.a(os_cpu_c.o)
+                                        0x836 (size before relaxing)
+ .debug_str     0x000000000000237c       0x24 ../ambilight_bsp/\libucosii_bsp.a(alt_find_dev.o)
+                                        0x215 (size before relaxing)
+ .debug_str     0x00000000000023a0       0x26 ../ambilight_bsp/\libucosii_bsp.a(alt_find_file.o)
+                                        0x223 (size before relaxing)
+ .debug_str     0x00000000000023c6       0x30 ../ambilight_bsp/\libucosii_bsp.a(alt_get_fd.o)
+                                        0x2c1 (size before relaxing)
+ .debug_str     0x00000000000023f6      0x48b ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+                                        0x599 (size before relaxing)
+ .debug_str     0x0000000000002881      0x17c c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                                        0x221 (size before relaxing)
+ .debug_str     0x00000000000029fd       0x5f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                                        0x5be (size before relaxing)
+ .debug_str     0x0000000000002a5c       0xd6 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                        0x5b5 (size before relaxing)
+ .debug_str     0x0000000000002b32       0x3f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x0000000000002b71       0xda c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                                        0x1e4 (size before relaxing)
+ .debug_str     0x0000000000002c4b       0x6b c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                                        0x20b (size before relaxing)
+ .debug_str     0x0000000000002cb6       0x51 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+                                        0x1f8 (size before relaxing)
+ .debug_str     0x0000000000002d07       0x44 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                                        0x1f7 (size before relaxing)
+ .debug_str     0x0000000000002d4b       0x3f c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                                        0x5f6 (size before relaxing)
+ .debug_str     0x0000000000002d8a       0x60 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                                        0x5e2 (size before relaxing)
+ .debug_str     0x0000000000002dea      0x187 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                        0x1d2 (size before relaxing)
+ .debug_str     0x0000000000002f71       0x40 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                        0x193 (size before relaxing)
+ .debug_str     0x0000000000002fb1       0x2a ../ambilight_bsp/\libucosii_bsp.a(alt_exit.o)
+                                        0x18c (size before relaxing)
+
+.debug_loc      0x0000000000000000      0xe77
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x2c c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_loc     0x000000000000002c       0x1e c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_loc     0x000000000000004a      0x126 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000000170      0x266 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000000000003d6      0x1a6 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_loc     0x000000000000057c       0x47 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00000000000005c3      0x185 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000000748      0x1ce c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000000916      0x4ce c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x0000000000000de4       0x93 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 ../ambilight_bsp//obj/HAL/src/crt0.o
+                0x0000000008000000                __alt_data_end = 0x8000000
+                0x0000000008000000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x8000000)
+OUTPUT(ambilight.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x1e8
+ .debug_ranges  0x0000000000000000       0x20 ../ambilight_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x30 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_ranges  0x0000000000000050       0x18 ../ambilight_bsp/\libucosii_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000068       0x28 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000090       0x10 ../ambilight_bsp/\libucosii_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000000000000a0       0x30 ../ambilight_bsp/\libucosii_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000000d0       0x18 ../ambilight_bsp/\libucosii_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x00000000000000e8       0x10 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_ranges  0x00000000000000f8       0x10 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000108       0x10 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_ranges  0x0000000000000118       0x10 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_ranges  0x0000000000000128       0x10 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_ranges  0x0000000000000138       0x10 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000148       0x10 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000158       0x30 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x0000000000000188       0x60 c:/intelfpga_lite/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)

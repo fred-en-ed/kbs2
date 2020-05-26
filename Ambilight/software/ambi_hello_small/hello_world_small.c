@@ -84,7 +84,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <altera_avalon_spi_regs.h>
-
+//#include "includes.h"
 
 void showLeds(alt_u32 data[],alt_u32 length){
 	int led = 0;
@@ -94,7 +94,7 @@ void showLeds(alt_u32 data[],alt_u32 length){
 			led++;
 		}
 	}
-}
+	}
 
 alt_u32 color(alt_8 r,alt_8 g,alt_8 b){
 	alt_u32 c;
@@ -109,56 +109,62 @@ int main()
 { 
 
 
-  /* Event loop never exits. */
+	alt_u32 color[32];
+		color[0] = 0x010101;
+		color[1] = 0x040404;
+		color[2] = 0x080808;
+		color[3] = 0x0C0C0C;
+		color[4] = 0x0F0F0F;
+		color[5] = 0x303030;
+		color[6] = 0x808080;
+		color[7] = 0xA0A0A0;
+		color[8] = 0xF0F0F0;
+		color[9] = 0xFFFFFF;
+		color[10] = 0xFFFFFF;
+		color[11] = 0xFFFFFF;
+		color[12] = 0xFFFFFF;
+		color[13] = 0xFFFFFF;
+		color[14] = 0xFFFFFF;
+		color[15] = 0xFFFFFF;
+		color[16] = 0xFFFFFF;
+		color[17] = 0xFFFFFF;
+		color[18] = 0xFFFFFF;
+		color[19] = 0xFFFFFF;
+		color[20] = 0xFFFFFF;
+		color[21] = 0xFFFFFF;
+		color[22] = 0xFFFFFF;
+		color[23] = 0xFFFFFF;
+		color[24] = 0xFFFFFF;
+		color[25] = 0xFFFFFF;
+		color[26] = 0xFFFFFF;
+		color[27] = 0xFFFFFF;
+		color[28] = 0xFFFFFF;
+		color[29] = 0xFFFFFF;
+		color[30] = 0xFFFFFF;
+		color[31] = 0xFF00FF;
 
-	alt_u32 data[32];
-	data[0] = 0x010101;
-	data[1] = 0x040404;
-	data[2] = 0x080808;
-	data[3] = 0x0C0C0C;
-	data[4] = 0x0F0F0F;
-	data[5] = 0x303030;
-	data[6] = 0x808080;
-	data[7] = 0xA0A0A0;
-	data[8] = 0xF0F0F0;
-	data[9] = 0xFFFFFF;
-	data[10] = 0xFFFFFF;
-	data[11] = 0xFFFFFF;
-	data[12] = 0xFFFFFF;
-	data[13] = 0xFFFFFF;
-	data[14] = 0xFFFFFF;
-	data[15] = 0xFFFFFF;
-	data[16] = 0xFFFFFF;
-	data[17] = 0xFFFFFF;
-	data[18] = 0xFFFFFF;
-	data[19] = 0xFFFFFF;
-	data[20] = 0xFFFFFF;
-	data[21] = 0xFFFFFF;
-	data[22] = 0xFFFFFF;
-	data[23] = 0xFFFFFF;
-	data[24] = 0xFFFFFF;
-	data[25] = 0xFFFFFF;
-	data[26] = 0xFFFFFF;
-	data[27] = 0xFFFFFF;
-	data[28] = 0xFFFFFF;
-	data[29] = 0xFFFFFF;
-	data[30] = 0xFFFFFF;
-	data[31] = 0xFF00FF;
+		alt_8 i =0;
+		alt_u32 cc = 0x0000FF;
+  while (1)
+  {
+	  if(i>32){
+		  i=0;
+		  if(cc == 0x0000FF){
+			  cc = 0x00FF00;
+		  }else{
+			  cc = 0x0000FF;
+		  }
+	  }
+showLeds(color,32);
+	 color[i]=cc;
+	  i++;
 
-// 8 + 8 + 8
+	 // alt_putstr("doet t\n");
 
 
-	alt_putstr("start\n");
-
-
-
-
-
-		showLeds(data,32);
-
-
-
-		alt_putstr("doet t\n");
+    //OSTimeDlyHMSM(0, 0, 0, 20);
+	 // OSTimeDly(1);
+  }
 
 
 

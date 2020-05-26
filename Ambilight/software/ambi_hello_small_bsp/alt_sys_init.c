@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Nios2' in SOPC Builder design 'ambilight_system'
  * SOPC Builder design path: ../../ambilight_system.sopcinfo
  *
- * Generated: Wed May 13 15:55:18 CEST 2020
+ * Generated: Tue May 19 15:28:10 CEST 2020
  */
 
 /*
@@ -63,6 +63,8 @@
 #include "altera_avalon_spi.h"
 #include "altera_avalon_sysid_qsys.h"
 #include "altera_avalon_timer.h"
+#include "altera_up_avalon_audio_and_video_config.h"
+#include "altera_up_avalon_video_dma_controller.h"
 
 /*
  * Allocate the device storage
@@ -73,6 +75,8 @@ ALTERA_AVALON_JTAG_UART_INSTANCE ( JTAG_UART, JTAG_UART);
 ALTERA_AVALON_SPI_INSTANCE ( SPI, Spi);
 ALTERA_AVALON_SYSID_QSYS_INSTANCE ( SYSID, SysID);
 ALTERA_AVALON_TIMER_INSTANCE ( INTERVAL_TIMER, Interval_Timer);
+ALTERA_UP_AVALON_AUDIO_AND_VIDEO_CONFIG_INSTANCE ( AV_CONFIG, AV_Config);
+ALTERA_UP_AVALON_VIDEO_DMA_CONTROLLER_INSTANCE ( VIDEO_IN_SUBSYSTEM_VIDEO_IN_DMA, Video_In_Subsystem_Video_In_DMA);
 
 /*
  * Initialize the interrupt controller devices
@@ -99,4 +103,6 @@ void alt_sys_init( void )
     ALTERA_AVALON_JTAG_UART_INIT ( JTAG_UART, JTAG_UART);
     ALTERA_AVALON_SPI_INIT ( SPI, Spi);
     ALTERA_AVALON_SYSID_QSYS_INIT ( SYSID, SysID);
+    ALTERA_UP_AVALON_AUDIO_AND_VIDEO_CONFIG_INIT ( AV_CONFIG, AV_Config);
+    ALTERA_UP_AVALON_VIDEO_DMA_CONTROLLER_INIT ( VIDEO_IN_SUBSYSTEM_VIDEO_IN_DMA, Video_In_Subsystem_Video_In_DMA);
 }

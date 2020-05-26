@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="6250a7be43641afe425e"/>
+    <hash md5_digest_80b="d191e00478629f5a8e59"/>
   </project>
   <file_info>
     <file device="EP4CE115F29C7" path="Ambilight_custom.sof" usercode="0xFFFFFFFF"/>
@@ -177,7 +177,7 @@
     </sld_info>
     <sld_info hpath="ambilight_system:amb" name="amb">
       <assignment_values>
-        <assignment_value text="QSYS_NAME ambilight_system HAS_SOPCINFO 1 GENERATION_ID 1589377887"/>
+        <assignment_value text="QSYS_NAME ambilight_system HAS_SOPCINFO 1 GENERATION_ID 1590062290"/>
       </assignment_values>
       <parameters/>
     </sld_info>

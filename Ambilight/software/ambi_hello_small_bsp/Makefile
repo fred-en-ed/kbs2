@@ -208,6 +208,13 @@ GENERATED_C_LIB_SRCS += alt_sys_init.c
 # used to build each file.
 #-------------------------------------------------------------------------------
 
+# avalon_audio_and_video_driver sources root 
+Avalon_Audio_and_Video_driver_SRCS_ROOT := drivers
+
+# avalon_audio_and_video_driver sources 
+Avalon_Audio_and_Video_driver_C_LIB_SRCS := \
+	$(Avalon_Audio_and_Video_driver_SRCS_ROOT)/src/altera_up_avalon_audio_and_video_config.c
+
 # altera_avalon_jtag_uart_driver sources root 
 altera_avalon_jtag_uart_driver_SRCS_ROOT := drivers
 
@@ -219,6 +226,10 @@ altera_avalon_jtag_uart_driver_C_LIB_SRCS := \
 	$(altera_avalon_jtag_uart_driver_SRCS_ROOT)/src/altera_avalon_jtag_uart_ioctl.c \
 	$(altera_avalon_jtag_uart_driver_SRCS_ROOT)/src/altera_avalon_jtag_uart_fd.c
 
+# altera_avalon_pio_driver sources root 
+altera_avalon_pio_driver_SRCS_ROOT := drivers
+
+# altera_avalon_pio_driver sources 
 # altera_avalon_spi_driver sources root 
 altera_avalon_spi_driver_SRCS_ROOT := drivers
 
@@ -278,6 +289,13 @@ altera_nios2_gen2_hal_driver_ASM_LIB_SRCS := \
 	$(altera_nios2_gen2_hal_driver_SRCS_ROOT)/src/alt_mcount.S \
 	$(altera_nios2_gen2_hal_driver_SRCS_ROOT)/src/alt_log_macro.S \
 	$(altera_nios2_gen2_hal_driver_SRCS_ROOT)/src/crt0.S
+
+# altera_up_avalon_video_dma_controller_driver sources root 
+altera_up_avalon_video_dma_controller_driver_SRCS_ROOT := drivers
+
+# altera_up_avalon_video_dma_controller_driver sources 
+altera_up_avalon_video_dma_controller_driver_C_LIB_SRCS := \
+	$(altera_up_avalon_video_dma_controller_driver_SRCS_ROOT)/src/altera_up_avalon_video_dma_controller.c
 
 # hal sources root 
 hal_SRCS_ROOT := HAL
@@ -341,11 +359,13 @@ hal_C_LIB_SRCS := \
 
 # Assemble all component C source files 
 COMPONENT_C_LIB_SRCS += \
+	$(Avalon_Audio_and_Video_driver_C_LIB_SRCS) \
 	$(altera_avalon_jtag_uart_driver_C_LIB_SRCS) \
 	$(altera_avalon_spi_driver_C_LIB_SRCS) \
 	$(altera_avalon_sysid_qsys_driver_C_LIB_SRCS) \
 	$(altera_avalon_timer_driver_C_LIB_SRCS) \
 	$(altera_nios2_gen2_hal_driver_C_LIB_SRCS) \
+	$(altera_up_avalon_video_dma_controller_driver_C_LIB_SRCS) \
 	$(hal_C_LIB_SRCS)
 
 # Assemble all component assembly source files 

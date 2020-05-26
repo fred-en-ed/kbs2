@@ -232,6 +232,42 @@
 					"strict" : false
 				},
 				{
+					"name" : "td_clk27",
+					"strict" : false
+				},
+				{
+					"name" : "td_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "td_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "td_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "td_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "td_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "td_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "td_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "td_data[7]",
+					"strict" : false
+				},
+				{
 					"name" : "altera_reserved_tms",
 					"strict" : false
 				},

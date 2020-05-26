@@ -1,16 +1,16 @@
-Fitter Status : Successful - Wed May 13 15:53:00 2020
+Fitter Status : Successful - Thu May 21 14:00:28 2020
 Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
 Revision Name : Ambilight_custom
 Top-level Entity Name : Ambilight_custom_top
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 3,709 / 114,480 ( 3 % )
-    Total combinational functions : 3,348 / 114,480 ( 3 % )
-    Dedicated logic registers : 2,124 / 114,480 ( 2 % )
-Total registers : 2245
-Total pins : 64 / 529 ( 12 % )
+Total logic elements : 6,605 / 114,480 ( 6 % )
+    Total combinational functions : 6,110 / 114,480 ( 5 % )
+    Dedicated logic registers : 4,176 / 114,480 ( 4 % )
+Total registers : 4305
+Total pins : 76 / 529 ( 14 % )
 Total virtual pins : 0
-Total memory bits : 11,776 / 3,981,312 ( < 1 % )
-Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total memory bits : 77,336 / 3,981,312 ( 2 % )
+Embedded Multiplier 9-bit elements : 10 / 532 ( 2 % )
 Total PLLs : 1 / 4 ( 25 % )

@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>May 13, 2020 3:55:17 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1589378117132</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>May 21, 2020 11:47:23 AM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1590054443792</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>D:\kbs2\KBS2\kbs2\Ambilight\software\ambi_hello_small_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\ambilight_system.sopcinfo</SopcDesignFile>
@@ -920,6 +920,24 @@
                 <slaveDescriptor>Spi</slaveDescriptor>
                 <addressRange>0x08000020 - 0x0800003F</addressRange>
                 <addressSpan>32</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>AV_Config</slaveDescriptor>
+                <addressRange>0x08000050 - 0x0800005F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>Video_In_Subsystem_Video_In_DMA</slaveDescriptor>
+                <addressRange>0x08000060 - 0x0800006F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>Video_In_Subsystem_Edge_Detection_Subsystem_Edge_Detection_Router_Controller</slaveDescriptor>
+                <addressRange>0x08000070 - 0x0800007F</addressRange>
+                <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>

@@ -8,7 +8,10 @@ obj/alt_sys_init.o: alt_sys_init.c system.h linker.h \
  drivers/inc/altera_avalon_jtag_uart_fd.h HAL/inc/sys/alt_dev.h \
  HAL/inc/sys/alt_llist.h HAL/inc/priv/alt_dev_llist.h \
  drivers/inc/altera_avalon_spi.h drivers/inc/altera_avalon_sysid_qsys.h \
- drivers/inc/altera_avalon_timer.h
+ drivers/inc/altera_avalon_timer.h \
+ drivers/inc/altera_up_avalon_audio_and_video_config.h \
+ drivers/inc/altera_up_avalon_audio_and_video_config_regs.h HAL/inc/io.h \
+ HAL/inc/alt_types.h drivers/inc/altera_up_avalon_video_dma_controller.h
 
 system.h:
 
@@ -55,3 +58,13 @@ drivers/inc/altera_avalon_spi.h:
 drivers/inc/altera_avalon_sysid_qsys.h:
 
 drivers/inc/altera_avalon_timer.h:
+
+drivers/inc/altera_up_avalon_audio_and_video_config.h:
+
+drivers/inc/altera_up_avalon_audio_and_video_config_regs.h:
+
+HAL/inc/io.h:
+
+HAL/inc/alt_types.h:
+
+drivers/inc/altera_up_avalon_video_dma_controller.h:

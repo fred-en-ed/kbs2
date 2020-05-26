@@ -2,7 +2,7 @@
   <sld_infos>
     <sld_info hpath="ambilight_system:amb" name="amb">
       <assignment_values>
-        <assignment_value text="QSYS_NAME ambilight_system HAS_SOPCINFO 1 GENERATION_ID 1589377887"/>
+        <assignment_value text="QSYS_NAME ambilight_system HAS_SOPCINFO 1 GENERATION_ID 1590062290"/>
       </assignment_values>
     </sld_info>
     <sld_info hpath="sld_hub:auto_hub|alt_sld_fab:\instrumentation_fabric_with_node_gen:instrumentation_fabric" library="alt_sld_fab" name="instrumentation_fabric">
